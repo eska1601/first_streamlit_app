@@ -3,6 +3,8 @@ import pandas
 import requests
 import snowflake.connector
 
+streamlit.stop()
+
 streamlit.title('Sample title')
 
 streamlit.header('Breakfast Menu')
